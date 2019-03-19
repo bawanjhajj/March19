@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>
+The Example   
+</title>
+<script type = "text/javascript"
+src ="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js">
+</script>    
+<script type = "text/javascript" language = "javascript">
+$(document).read(function()
+{
+    var para = $("p"); //tag name
+    for(i=0;i<para.length;i++)
+    {
+        alert("Paragraph No: " +para[i].innerHTML);
+    }
+});
+</script>
+</head>
+<body>
+<div>
+    <p class="myclass">First Para.</p><!--tag class-->
+    <p id="myid">Second Para.</p><!--tag id-->
+    <p>Third Para.</p><!--tag name-->
+</div>
+</body>    
+</html>
